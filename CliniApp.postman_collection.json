@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "9dd8ce60-00df-47e0-b525-d4233760c76e",
+		"name": "CliniApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31611932"
+	},
+	"item": [
+		{
+			"name": "Obtener Medicos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/Clinica/ObtenerMedicos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Clinica",
+						"ObtenerMedicos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Citas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/Clinica/obtenerCitas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Clinica",
+						"obtenerCitas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener data Medico",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Insertar Cita",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Editar Médico",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
