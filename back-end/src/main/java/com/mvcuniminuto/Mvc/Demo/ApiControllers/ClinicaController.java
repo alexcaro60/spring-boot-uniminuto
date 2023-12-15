@@ -57,11 +57,12 @@ public class ClinicaController {
         }
     }
 
-    @PostMapping("/insertarMedico")
+    @PostMapping("/InsertarMedico")
     public ResponseEntity<Object> insertarMedico(@RequestBody InsertMedico insertMedico) {
         try {
             Medico medico = new Medico();
             medico.setNombre(insertMedico.getNombre());
+            medico.setEspecialidad(insertMedico.getEspecialidad());
 
             Medico medicoGuardado = medicoRepository.save(medico);
 

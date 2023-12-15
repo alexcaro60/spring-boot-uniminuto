@@ -33,7 +33,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/Clinica/obtenerCitas",
+					"raw": "http://localhost:8080/api/Clinica/ObtenerCitas",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -42,7 +42,7 @@
 					"path": [
 						"api",
 						"Clinica",
-						"obtenerCitas"
+						"ObtenerCitas"
 					]
 				}
 			},
@@ -51,8 +51,30 @@
 		{
 			"name": "Obtener data Medico",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "1",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/Clinica/ObtenerDataMedico",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Clinica",
+						"ObtenerDataMedico"
+					]
+				}
 			},
 			"response": []
 		},
@@ -69,6 +91,27 @@
 			"request": {
 				"method": "GET",
 				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Insertar medico",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/Clinica/EditarMedico",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Clinica",
+						"EditarMedico"
+					]
+				}
 			},
 			"response": []
 		}

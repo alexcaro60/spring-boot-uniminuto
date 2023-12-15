@@ -2,8 +2,8 @@ package com.mvcuniminuto.Mvc.Demo.Models;
 
 public class InsertMedico {
     private String nombre;
+    private String especialidad;
 
-    // Constructor por defecto
     public InsertMedico() {
     }
 
@@ -15,6 +15,12 @@ public class InsertMedico {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public String getEspecialidad(){ return especialidad;}
+
+    public void setEspecialidad(String especialidad){
+        this.especialidad = especialidad;
     }
 
 }
